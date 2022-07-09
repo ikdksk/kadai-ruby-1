@@ -4,6 +4,6 @@ profile = {
     age: 25
 }
 
-kadai-introduce = :lastname + :firstname + "です。" + :age.to_s + "です。"
+kadaiintroduce = profile[:lastname] + profile[:firstname] + "です。" + profile[:age].to_s + "です。"
 
-puts kaidai-introduce
+puts kadaiintroduce
